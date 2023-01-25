@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/76816b355f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Templates Responsive</title>
+
+  </head>
+
+  <body class="flex flex-col justify-between min-h-screen gap-12 bg-black">
+    <header class="bg-white px-6 py-7">
+      <nav class="flex gap-20 items-center justify-center">
+        <img src="img/logo.png" alt="logo" class="h-9" />
+
+        <div class="ml-auto lg:hidden">
+          <i class="fa-solid fa-bars text-neutral-400 fa-xl"></i>
+        </div>
+
+        <ul
+          class="hidden lg:flex gap-4 2xl:text-2xl 2xl:gap-7 whitespace-nowrap uppercase text-gray-400 font-semibold text-lg">
+          <li>Page 1</li>
+          <li>Page 2</li>
+          <li>Page 3</li>
+          <li>Page 4</li>
+          <li>Page 5</li>
+          <li>Page 6</li>
+          <li>Page 6</li>
+          <li>Page 7</li>
+          <li>Page 8</li>
+          <li>Page 9</li>
+          <li>Page 10</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="mx-auto max-w-[85vw] lg:max-w-[95vw] xl:max-w-[90vw]">
+
+      <container
+        class="relative grid gap-2 md:grid-cols-2 lg:grid-flow-col lg:grid-cols-3 2xl:max-w-[65vw] mx-auto pt-8 pr-8">
+
+        <div class="z-[-1] absolute bg-orange-600 top-0 right-0 w-4/5 h-1/5 md:w-3/5 lg:w-2/5 lg:h-2/6"></div>
+
+
+        <div class="row-span-1 col-span-1 lg:col-start-1">
+          <img src="img/woman.jpg" alt="Woman" class="object-cover h-96 w-full">
+        </div>
+
+        <div class="row-span-1 col-span-1 lg:col-start-2">
+          <img src=" img/smoothie.jpg" alt="Smoothie" class="object-cover h-96 md:h-96  w-full">
+        </div>
+
+        <div class="flex flex-col gap-5 bg-orange-600 text-white p-4 col-span-1 md:row-span-1 lg:col-start-1 md:h-full">
+          <h1 class="text-4xl">Blarg plop yolo</h1>
+          <p class="text-2xl">Sollicitudin tempor id eu nisi nunc mi. Tortor condimentum lacinia quis vel
+            Eget duis at tellus at urna. Enim ut tellus elementum sagittis vitae.
+            Nam aliquam sem et tortor consequat. In hac habitasse platea dictumst quisque sagittis purus. Risus at
+            ultrices mi tempus imperdiet nulla. Dolor purus non enim present. Lectus vestibulum mattis ullamcorper velit
+            sed ullamcorper morbi tincidunt ornare. Dui ut ornare lectus sit amet est. Magna get est lorem ipsum
+            dolor sit amet.
+          </p>
+        </div>
+
+        <div class="col-span-1 row-span-1 md:col-start-2">
+          <img src="img/plate.jpg" alt="Plate" class="object-cover object-left h-80 w-full md:h-full">
+        </div>
+
+        <div
+          class="flex flex-col justify-center gap-7 bg-white p-4 md:col-span-2 md:row-span-1 lg:row-span-2 lg:col-span-1 ">
+          <h1 class="text-5xl font-black text-orange-600">Welcome</h1>
+          <p class="text-2xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Id diam vel quam elementum pulvinar etiam non. Nunc consequat interdum varius sit.
+            Aenean sed adipiscing diam donec adipiscing. laculis urna id volutpat lacus laoreet non. Amet mauris commodo
+            quis imperdiet massa. Eget arcu dictum varius duis at consectetur lorem donec.
+          </p>
+          <button class="bg-orange-600 text-white font-semibold text-sm uppercase px-4 py-2 mr-auto">View menu</button>
+        </div>
+
+        </div>
+      </container>
+    </main>
+
+    <footer>
+      <div class="flex justify-center gap-6 bg-zinc-700 p-12">
+        <a href="#">
+          <i class="fa-brands fa-facebook-f fa-inverse fa-2xl"></i>
+        </a>
+
+        <a href="#">
+          <i class="fa-brands fa-twitter fa-inverse fa-2xl"></i>
+        </a>
+
+        <a href="#">
+          <i class="fa-brands fa-instagram fa-inverse fa-2xl"></i>
+        </a>
+
+        <a href="#">
+          <i class="fa-brands fa-linkedin-in fa-inverse fa-2xl"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+
+</html>
